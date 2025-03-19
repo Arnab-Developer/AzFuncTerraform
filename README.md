@@ -6,7 +6,7 @@ Code deploy steps:
 
 - Create a new function app in visual studio.
 - Publish that function app in a folder.
-- Zip that folder.
+- Zip that folder with `publish.zip` name.
 - Run azure cli command to deploy in the azure function app.
   ```powershell
   az functionapp deployment source config-zip `
