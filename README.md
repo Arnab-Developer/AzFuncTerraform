@@ -7,7 +7,7 @@ Code deploy steps:
 - Create a new function app in visual studio.
 - Publish that function app in a folder.
 - Zip that folder.
-- Run azure cli command to publish in the azure function app.
+- Run azure cli command to deploy in the azure function app.
   ```powershell
   az functionapp deployment source config-zip `
       -g "rg-terraapp1-dev" `
